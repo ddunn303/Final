@@ -1,0 +1,12 @@
+name: ShinyDemoDD
+title: ShinyDemoDD
+username: dougdunn
+account: dougdunn
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13522948
+bundleId: 9492648
+url: https://dougdunn.shinyapps.io/ShinyDemoDD/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
