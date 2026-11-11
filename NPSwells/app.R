@@ -166,7 +166,8 @@ server <- function(input, output, session) {
     "Geothermal" = "#005824",   # Green
     "Test" = "#969696", # Grey
     "Oil & Gas" = "#040405", # Black
-    "Unknown" = "#feb24c" # Yellow
+    "Unknown" = "#feb24c", # Yellow
+    "Other" = "#feb24c" # Yellow
     )
   
   
@@ -182,7 +183,7 @@ server <- function(input, output, session) {
     tm_shape(well_react()) +
     tm_dots(
       col = "Type",
-      size = 0.1,
+      size = 1,
       palette = type_colors,
       legend.show = FALSE,
       popup.vars = c(
